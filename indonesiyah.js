@@ -1,3 +1,5 @@
+var pages = [ 
+
 "https://indonesiyah.blogspot.com/2019/02/beautiful-girl-with-hijab-photos.html",
 "https://indonesiyah.blogspot.com/2019/02/beautiful-hijab-collection.html",
 "https://indonesiyah.blogspot.com/2019/02/pic-of-beautiful-hijab-girl.html",
@@ -308,3 +310,9 @@
 "https://indonesiyah.blogspot.com/2019/12/video-tutorial-hijab-segi-empat.html",
 "https://indonesiyah.blogspot.com/2019/12/week-end-hijab-fashion-cute.html",
 "https://indonesiyah.blogspot.com/2019/12/week-end-hijab-fashion-cute_28.html",
+
+]; 
+function randomPage() { 
+return pages[Math.round(Math.random() * (pages.length - 1))]; 
+} 
+location.href= randomPage(); 
